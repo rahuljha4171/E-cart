@@ -4,10 +4,10 @@
   "description": "",
   "main": "server/app.js",
   "scripts": {
-    "start": "nodemon --watch server --exec babel-node server/app.js",
-    "build": "rm -rf dist && babel server -d dist && cd client && npm install && npm run build",
-    "serve": "node dist/app.js",
-    "heroku-prebuild": "cd client && npm install --dev"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix client && npm run build --prefix client"
   },
   "author": "Rahul Jha",
   "license": "ISC",
