@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-website---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahuljha4171/E-cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahuljha4171/E-cart/issues"
+  },
+  "homepage": "https://github.com/rahuljha4171/E-cart#readme"
+}
