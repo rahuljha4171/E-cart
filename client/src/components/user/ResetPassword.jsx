@@ -51,7 +51,7 @@ const ResetPassword = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="Change Password" />
+          <MetaData title="Change Password | E-Cart - Online Shopping website" />
           <div className="resetPasswordContainer">
             <div className="resetPasswordBox">
               <h2 className="resetPasswordHeading">Reset Password</h2>

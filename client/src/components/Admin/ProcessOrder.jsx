@@ -52,7 +52,7 @@ const ProcessOrder = () => {
 
   return (
     <Fragment>
-      <MetaData title="Process Order" />
+      <MetaData title="Process Order | E-Cart - Online Shopping website" />
       <div className="dashboard">
         <SideBar />
         <div className="newProductContainer">

@@ -127,7 +127,7 @@ const UpdateProduct = () => {
   };
   return (
     <Fragment>
-      <MetaData title="Update Product" />
+      <MetaData title="Update Product | E-Cart - Online Shopping website" />
       <div className="dashboard">
         <SideBar />
         <div className="newProductContainer">

@@ -23,7 +23,7 @@ const Profile = () => {
         <Loader />
       ) : (
         <>
-          <MetaData title={`${user.name}'s Profile`} />
+          <MetaData title={`${user.name}'s Profile | E-Cart - Online Shopping website`} />
 
           <h1 className="PageHeading">My Profile</h1>
 

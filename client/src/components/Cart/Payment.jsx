@@ -117,7 +117,7 @@ const Payment = () => {
 
   return (
     <>
-      <Metadata title="Payment" />
+      <Metadata title="Payment | E-Cart - Online Shopping website" />
       <CheckoutSteps activeStep={2} />
       <div className="paymentContainer">
         <form

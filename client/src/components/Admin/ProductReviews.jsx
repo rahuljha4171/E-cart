@@ -130,7 +130,7 @@ const ProductReviews = () => {
 
   return (
     <Fragment>
-      <MetaData title={`ALL REVIEWS - Admin`} />
+      <MetaData title={`ALL REVIEWS - Admin | E-Cart - Online Shopping website`} />
 
       <div className="dashboard">
         <SideBar />

@@ -64,7 +64,7 @@ const Products = () => {
         <Loader />
       ) : (
         <>
-          <MetaData title="Products--E-Cart" />
+          <MetaData title="Products--E-Cart - Online Shopping website" />
           <h2 className="productsHeading">Products</h2>
           <div className="products col-11">
             {products &&

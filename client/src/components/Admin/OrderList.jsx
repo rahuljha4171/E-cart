@@ -117,7 +117,7 @@ const OrderList = () => {
 
   return (
     <Fragment>
-      <MetaData title={`ALL ORDERS - Admin`} />
+      <MetaData title={`ALL ORDERS - Admin | E-Cart - Online Shopping website`} />
 
       <div className="dashboard">
         <SideBar />

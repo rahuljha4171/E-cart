@@ -90,7 +90,7 @@ const NewProduct = () => {
 
   return (
     <Fragment>
-      <MetaData title="Create Product" />
+      <MetaData title="Create Product | E-Cart - Online Shopping website" />
       <div className="dashboard">
         <SideBar />
         <div className="newProductContainer">

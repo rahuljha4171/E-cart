@@ -71,7 +71,7 @@ const UpdateUser = () => {
 
   return (
     <Fragment>
-      <MetaData title="Update User" />
+      <MetaData title="Update User | E-Cart - Online Shopping website" />
       <div className="dashboard">
         <SideBar />
         <div className="newProductContainer">

@@ -118,7 +118,7 @@ const ProductList = () => {
 
   return (
     <>
-      <MetaData title={`ALL PRODUCTS - Admin`} />
+      <MetaData title={`ALL PRODUCTS - Admin | E-Cart - Online Shopping website`} />
 
       <div className="dashboard">
         <SideBar />

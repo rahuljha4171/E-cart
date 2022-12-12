@@ -119,7 +119,7 @@ const navigate = useNavigate()
 
   return (
     <Fragment>
-      <MetaData title={`ALL USERS - Admin`} />
+      <MetaData title={`ALL USERS - Admin | E-Cart - Online Shopping website`} />
 
       <div className="dashboard">
         <SideBar />

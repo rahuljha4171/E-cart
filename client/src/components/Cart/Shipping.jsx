@@ -45,7 +45,7 @@ const Shipping = () => {
 
   return (
     <>
-      <MetaData title="Shipping Details" />
+      <MetaData title="Shipping Details | E-Cart - Online Shopping website" />
 
       <CheckoutSteps activeStep={0} />
 

@@ -18,7 +18,7 @@ const Footer = () => {
       </div>
       <div className="middleFooter">
         <Link to="/">
-          <img src={logo} alt="Ecommerce" />
+          <img src={logo} alt="E-Cart" />
         </Link>
         <p>World class Service</p>
 
