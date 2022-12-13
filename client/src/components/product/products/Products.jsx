@@ -81,6 +81,7 @@ const Products = () => {
               aria-labelledby="range-slider"
               min={0}
               max={100000}
+              getAriaLabel={() => "Price range"}
             />
 
             <Typography>Categories</Typography>
