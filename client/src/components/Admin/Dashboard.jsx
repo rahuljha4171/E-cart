@@ -76,7 +76,7 @@ const Dashboard = () => {
         <div className="dashboardSummary">
           <div>
             <p>
-              Total Amount <br /> ₹{totalAmount}
+              Total Amount <br /> ₹{Math.round(totalAmount* 100)/100}
             </p>
           </div>
           <div className="dashboardSummaryBox2">
