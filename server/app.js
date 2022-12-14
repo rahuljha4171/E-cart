@@ -50,7 +50,7 @@ app.get("*", (req, res) => {
 
 app.use(errorMiddleware);
 
-// Database
+// Database Connection
 
 mongoose.connect(process.env.CONNECTION_URL, {
   useNewUrlParser: true,
