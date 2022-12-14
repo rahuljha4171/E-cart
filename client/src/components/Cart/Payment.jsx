@@ -140,7 +140,7 @@ const Payment = () => {
           </div>
           <input
             type="submit"
-            value={`Pay ₹${orderInfo && orderInfo.totalPrice}`}
+            value={`Pay ₹${orderInfo && Math.round(orderInfo.totalPrice* 100)/100}`}
             ref={payBtn}
             className="paymentFormBtn"
           />

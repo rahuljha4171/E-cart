@@ -108,7 +108,10 @@ const ProcessOrder = () => {
 
                     <div>
                       <p>Amount:</p>
-                      <span>{order.totalPrice && order.totalPrice}</span>
+                      <span>
+                        {order.totalPrice &&
+                          Math.round(order.totalPrice * 100) / 100}
+                      </span>
                     </div>
                   </div>
 
