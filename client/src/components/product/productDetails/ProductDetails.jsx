@@ -114,7 +114,9 @@ const ProductDetails = () => {
         <Loader />
       ) : (
         <>
-          <MetaData title={`${product.name} -- E-Cart - Online Shopping website`} />
+          <MetaData
+            title={`${product.name} -- E-Cart - Online Shopping website`}
+          />
           <div className="ProductDetails">
             <div>
               <Swiper

@@ -95,7 +95,7 @@ const ConfirmOrder = () => {
               </div>
               <div>
                 <p>GST:</p>
-                <span>₹{tax}</span>
+                <span>₹{Math.round(tax * 100) / 100}</span>
               </div>
             </div>
 
@@ -103,7 +103,7 @@ const ConfirmOrder = () => {
               <p>
                 <b>Total:</b>
               </p>
-              <span>₹{totalPrice}</span>
+              <span>₹{Math.round(totalPrice * 100) / 100}</span>
             </div>
 
             <button onClick={proceedToPayment}>Proceed To Payment</button>
