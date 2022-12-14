@@ -50,7 +50,7 @@ app.get("*", (req, res) => {
 
 app.use(errorMiddleware);
 
-// Database Connection
+// Database
 
 mongoose.connect(process.env.CONNECTION_URL, {
   useNewUrlParser: true,
@@ -61,7 +61,7 @@ const server = app.listen(process.env.PORT, () =>
   console.log(`Server Running on Port: http://localhost:${process.env.PORT}`)
 );
 
-// Cloudinary 
+// Cloudinary
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
