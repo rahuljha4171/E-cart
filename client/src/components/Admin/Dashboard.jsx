@@ -25,7 +25,7 @@ const Dashboard = () => {
 
   products &&
     products.forEach((item) => {
-      if (item.Stock === 0) {
+      if (item.stock === 0) {
         outOfStock += 1;
       }
     });
@@ -76,7 +76,7 @@ const Dashboard = () => {
         <div className="dashboardSummary">
           <div>
             <p>
-              Total Amount <br /> ₹{Math.round(totalAmount* 100)/100}
+              Total Amount <br /> ₹{Math.round(totalAmount * 100) / 100}
             </p>
           </div>
           <div className="dashboardSummaryBox2">

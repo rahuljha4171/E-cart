@@ -7,11 +7,9 @@ import {
   newReview,
 } from "../../../actions/product";
 import { useAlert } from "react-alert";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
 import { Pagination } from "swiper";
-import SwiperCore, { Autoplay } from "swiper";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/navigation";
@@ -117,7 +115,7 @@ const ProductDetails = () => {
       ) : (
         <>
           <MetaData
-            title={`${product.name} -- E-Cart - Online Shopping website`}
+            title={`${product.name} | E-Cart - Online Shopping website`}
           />
           <div className="ProductDetails">
             <div>
@@ -125,8 +123,6 @@ const ProductDetails = () => {
                 className="mySwiper"
                 modules={[Pagination, Autoplay]}
                 slidesPerView={1}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
                 pagination={{ clickable: true }}
                 autoplay
               >

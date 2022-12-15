@@ -15,7 +15,6 @@ const ConfirmOrder = () => {
     (acc, item) => acc + item.quantity * item.price,
     0
   );
-  console.log(subtotal);
 
   const shippingCharges = subtotal > 499 ? 0 : 49;
 

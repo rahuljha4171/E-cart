@@ -13,13 +13,5 @@
 }
 
 .stepper {
-    padding-top: 80px;
-}
-
-@media screen and (max-width: 600px) {
-
-    .stepper {
-        padding-top: 8vmax;
-
-    }
+    padding-top: 8vmax;
 }
