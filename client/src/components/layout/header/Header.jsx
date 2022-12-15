@@ -1,6 +1,6 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAlert } from "react-alert";
 import { logout } from "../../../actions/user";
 import { useDispatch, useSelector } from "react-redux";
@@ -144,31 +144,43 @@ const Header = () => {
                     marginBottom: 1,
                   }}
                 >
-                  <AiOutlineSearch /> Search
+                  <Link className="link" to="/search">
+                    <AiOutlineSearch /> Search
+                  </Link>
                 </Typography>
                 <Typography
                   sx={{
                     marginBottom: 1,
                   }}
                 >
-                  <AiOutlineShoppingCart />
-                  {cartItems.length ? `(${cartItems.length})` : "(0)"} Cart
+                  <Link className="link" to="/cart">
+                    <AiOutlineShoppingCart />
+                    {cartItems.length ? `(${cartItems.length})` : "(0)"} Cart
+                  </Link>
                 </Typography>
                 <Typography
                   sx={{
                     marginBottom: 1,
                   }}
                 >
-                  Products
+                  <Link className="link" to="/products">
+                    Products
+                  </Link>
                 </Typography>
                 <Typography
                   sx={{
                     marginBottom: 1,
                   }}
                 >
-                  Contact
+                  <Link className="link" to="/contact">
+                    Contact
+                  </Link>
                 </Typography>
-                <Typography>About</Typography>
+                <Typography>
+                  <Link className="link" to="/about">
+                    About
+                  </Link>
+                </Typography>
               </MenuItem>
             </Menu>
           </Box>

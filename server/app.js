@@ -61,7 +61,7 @@ const server = app.listen(process.env.PORT, () =>
   console.log(`Server Running on Port: http://localhost:${process.env.PORT}`)
 );
 
-// Cloudinary
+// Cloudinary Configuration
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,

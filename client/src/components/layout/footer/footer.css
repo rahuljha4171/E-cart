@@ -5,6 +5,12 @@ footer {
   color: white;
   display: flex;
   align-items: center;
+
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
 }
 
 .leftFooter {
@@ -36,12 +42,6 @@ footer {
 .middleFooter {
   width: 50%;
   text-align: center;
-}
-
-.middleFooter>h1 {
-  font-size: 4vmax;
-  font-family: "Roboto";
-  color: #eb4034;
 }
 
 .middleFooter>p {
@@ -78,9 +78,15 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-
   img {
-
     width: 8rem;
+  }
+
+  .middleFooter>p {
+    font-size: 1.3vmax;
+  }
+
+  .rightFooter>a {
+    font-size: 1.2vmax;
   }
 }

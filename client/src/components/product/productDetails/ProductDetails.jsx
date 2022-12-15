@@ -10,6 +10,8 @@ import { useAlert } from "react-alert";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import { Pagination } from "swiper";
+import SwiperCore, { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/navigation";
@@ -120,10 +122,13 @@ const ProductDetails = () => {
           <div className="ProductDetails">
             <div>
               <Swiper
-                navigation
-                modules={[Navigation]}
-                pagination={{ clickable: true }}
                 className="mySwiper"
+                modules={[Pagination, Autoplay]}
+                slidesPerView={1}
+                onSlideChange={() => console.log("slide change")}
+                onSwiper={(swiper) => console.log(swiper)}
+                pagination={{ clickable: true }}
+                autoplay
               >
                 {product.images &&
                   product.images.map((item, i) => (

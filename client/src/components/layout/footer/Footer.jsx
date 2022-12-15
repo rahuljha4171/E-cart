@@ -13,16 +13,14 @@ const Footer = () => {
     <footer id="footer">
       <div className="leftFooter">
         <h4>Download Our App</h4>
-        <img src={playStore} alt="playstore" />
-        <img src={appStore} alt="playstore" />
+        <img src={playStore} alt="playStore" />
+        <img src={appStore} alt="AppStore" />
       </div>
       <div className="middleFooter">
         <Link to="/">
           <img src={logo} alt="E-Cart" />
         </Link>
-        <p>World class Service</p>
-
-        <p>Copyright 2022 &copy; Rahul Jha</p>
+        <p>Developed By <a href="https://www.rahuljha.tech/">Rahul Jha</a> </p>
       </div>
       <div className="rightFooter">
         <h4>Follow Me:</h4>
